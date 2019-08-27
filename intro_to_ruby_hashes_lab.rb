@@ -23,7 +23,7 @@ def monopoly_with_third_tier
   # complexity.
   
   hash = monopoly_with_second_tier
-  hash[:railroads]
+  hash[:railroads][:rent_in]
 end
 
 def monopoly_with_fourth_tier
