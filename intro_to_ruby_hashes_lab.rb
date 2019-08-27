@@ -46,4 +46,5 @@ def monopoly_with_fourth_tier
   
   hash = monopoly_with_third_tier
   hash[:railroads][:names][:reading_railroad]["mortgage_value"] = 100
+  hash
 end
