@@ -26,7 +26,6 @@ def monopoly_with_third_tier
   hash[:railroads][:rent_in_dollars] = {
     one_piece_owned: 25
   }
-  hash[:railroads][:rent_in_dollars][] = 25
   hash
 end
 
